@@ -1,0 +1,15 @@
+program {
+    int i, j = 0;
+    while (j < 3) {
+        i = 0;
+        for (i; i < 15; i = i + 1) {
+            write(i);
+            if (i > 2) {
+                break;
+               
+            } else {}
+        }
+        write(i);
+        j = j + 1;
+    }
+}

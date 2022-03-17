@@ -1,0 +1,15 @@
+program{
+   int i = 0, j = 1;
+   
+   for (i + j; i < j; j = j + 1){
+	i = i + 1;
+        break;
+        break;
+        while(i < j){}
+        break;
+        while (j < i){
+            break;
+            break;
+        }
+   }
+}

@@ -1,0 +1,14 @@
+program {
+    int a;
+    bool b;
+    string s;
+
+    read(a);
+    write(a);
+
+    read(b);
+    write(b);
+
+    read(s);
+    write(s);
+}

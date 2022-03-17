@@ -1,0 +1,10 @@
+program
+var a: string, b: int;{что это?}
+begin
+L: for (b := 1, b <=3, b := b + 1)
+begin
+a := "abc";
+break;
+end
+goto L;
+end@

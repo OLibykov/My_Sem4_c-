@@ -1,0 +1,8 @@
+program {
+    bool b = true, c = true;
+    if (b and c and not b) {
+        write("True");
+    } else {
+        write("False");
+    }
+}

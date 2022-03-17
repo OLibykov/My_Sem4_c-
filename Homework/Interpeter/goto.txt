@@ -1,0 +1,12 @@
+program {
+    int a = 0;
+    goto fin2;
+fin1:
+    write(a);
+    goto fin3;
+fin2:
+    write(a + 1);
+    goto fin1;
+fin3:
+    write(a + 2);
+}

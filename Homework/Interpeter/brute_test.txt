@@ -1,0 +1,32 @@
+program{
+    int i = 1, j = 1, c = 3;
+    string s = "abcde", s1 = "bfgs";
+    bool x = false, y = true, z = false;
+    
+    while((i < 10)){
+        j = 1;
+        while(j < 10){
+            write(i, j);
+            if(j == 5){
+                goto fin2;
+                break;
+                break;
+            }
+            else{
+                j = j + 1;
+            }
+            if (not x) {
+                if (y) {
+                    if (not z) {
+                        write("inside deep loop");
+                    } else {}
+                } else {}
+            } else {}
+        }   
+        i = i + 1;
+    }
+    goto fin2;
+    write(false);
+fin2:
+    write(true);
+}

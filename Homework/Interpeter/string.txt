@@ -1,0 +1,8 @@
+program {
+    int i = 0;
+    string a = "b";
+    for (i; i < 5; i = i + 1) {
+        a = a + "a";
+    }
+    write(a);
+}

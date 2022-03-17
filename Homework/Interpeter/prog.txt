@@ -1,0 +1,27 @@
+program
+var a: string, b: int;
+begin
+  a := "1";
+  write(a);
+  b := 0;
+  repeat
+    repeat
+      write(b)
+    until not not (b = b);
+    a := a + "1";
+    b := b + 1;
+    write(a)
+  until b>=10
+end@
+
+program
+var a,b,c:int, d,e: string;
+begin
+    a := 1;
+    b := 2;
+    c := 1 + 2;
+    d := "abc";
+    e := d + "123";
+    write(e);
+    write(c)
+end@
